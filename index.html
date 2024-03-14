@@ -17,22 +17,33 @@
 
   <!-- Sign-up form start -->
   <main>
-    Stay updated!
+    <div class="info">
 
-    Join 60,000+ product managers receiving monthly updates on:
+      <h1>Stay updated!</h1>
 
-    Product discovery and building what matters
-    Measuring to ensure updates are a success
-    And much more!
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
-    Email address
-    email@company.com
-
-    Subscribe to monthly newsletter
-
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      <form>
+        <h2>Email address</h2>
+        <input placeholder="email@company.com" />
+        <button>Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <div class="image">
+      <picture>
+        <source media="(max-width: 500px)" srcset="assets/images/illustration-sign-up-mobile.svg" />
+        <source media="(min-width: 500px)" srcset="assets/images/illustration-sign-up-desktop.svg" />
+        <img class="perfume" src="assets/images/illustration-sign-up-desktop.svg" alt="perfume">
+      </picture>
+    </div>
     <!-- Sign-up form end -->
 
-    <!-- Success message start -->
+    <!-- Success message start 
 
     Thanks for subscribing!
 
@@ -40,8 +51,8 @@
     Please open it and click the button inside to confirm your subscription.
 
     Dismiss message
-
-    <!-- Success message end -->
+    
+    Success message end -->
   </main>
 </body>
 
